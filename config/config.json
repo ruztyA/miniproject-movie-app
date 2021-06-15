@@ -1,0 +1,35 @@
+{
+  "development": {
+    "username": "pmwocqiesqutso",
+    "password": "33295f25180e2a35380dc3aa471e7214ec577eb3fa073703b4f5107c10b242ca",
+    "database": "d28ecn972mgse0",
+    "host": "ec2-34-230-115-172.compute-1.amazonaws.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+          "require": true,
+          "rejectUnauthorized": false
+      }
+    }
+  },
+  "test": {
+    "username": "postgres",
+    "password": "password",
+    "database": "movie_database",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "production":  {
+    "username": "pmwocqiesqutso",
+    "password": "33295f25180e2a35380dc3aa471e7214ec577eb3fa073703b4f5107c10b242ca",
+    "database": "d28ecn972mgse0",
+    "host": "ec2-34-230-115-172.compute-1.amazonaws.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+          "require": true,
+          "rejectUnauthorized": false
+      }
+    }
+  }
+}
